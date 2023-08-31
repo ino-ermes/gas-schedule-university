@@ -17,7 +17,7 @@
     + busy time of the room that a lecture can't happen.
 2. Ouput: schedules that:
 - All the classes is scheduled.
-- Multi-period class must happen continuously(ex: Math class has 2 period so it must happen on 2-4, of 8-10,...).
+- Multi-period class must happen continuously(ex: Math class has 3 period so it must happen on 2-4, of 8-10,...).
 - A schedule of a class must end before the end of the day.
 - One room at one time can only hold one class.
 - A student group at one time can only study in one class.
