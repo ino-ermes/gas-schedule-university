@@ -35,12 +35,28 @@
 5. Mutation.
 6. Survivor selection.
 7. Loop from step 2 until termination criteria reached.
-![Algorithm diagram]()
 ### Chromosome design
 ## Main idea
-![Chromosome design implement]()
+![Chromosome design implement](https://i.imgur.com/RDVIej0.png)
 ## The way to implement
-![Chromosome design implement]()
+![Chromosome design implement](https://i.imgur.com/E75eA2b.png)
+## Crossover
+![Crossover](https://i.imgur.com/7TIARml.png)
+## Mutation
+![Mutation](https://i.imgur.com/D5tSW9W.png)
 ## Database design(Sql diagram)
-
+![Sql diagram](https://i.imgur.com/ElrEL51.png)
 ## GUI and result
+- Preparing
+![result](https://i.imgur.com/hP6jXPr.png)
+- Scheduling
+![result](https://i.imgur.com/LcUJajA.png)
+- Re-check schedule
+![result](https://i.imgur.com/Pzz2aGE.png)
+- Applying the schedule
+![result](https://i.imgur.com/UXlfD4S.png)
+- Query schedule
+![result](https://i.imgur.com/S38Jf8C.png)
+- Account's info
+![result](https://i.imgur.com/Vk65eHv.png)
+- And other features...
