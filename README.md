@@ -36,17 +36,17 @@
 6. Survivor selection.
 7. Loop from step 2 until termination criteria reached.
 ### Chromosome design
-## Main idea
+#### Main idea
 ![Chromosome design implement](https://i.imgur.com/RDVIej0.png)
-## The way to implement
+#### The way to implement
 ![Chromosome design implement](https://i.imgur.com/E75eA2b.png)
-## Crossover
+#### Crossover
 ![Crossover](https://i.imgur.com/7TIARml.png)
-## Mutation
+#### Mutation
 ![Mutation](https://i.imgur.com/D5tSW9W.png)
-## Database design(Sql diagram)
+#### Database design(Sql diagram)
 ![Sql diagram](https://i.imgur.com/ElrEL51.png)
-## GUI and result
+#### GUI and result
 - Preparing
 ![result](https://i.imgur.com/hP6jXPr.png)
 - Scheduling
