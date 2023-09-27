@@ -1,33 +1,33 @@
 # Applying genetic algorithm in university's scheduling
 ## Technology
 - Java.
-- GUI with Swing library.
+- GUI with Java Swing.
 - MySQL(jdbc).
 - MVC model.
 ## Algorithm design
 ### Problem
 1. Input
-- A list of classes, each class contains:
-    + A teacher(with busy time that the teacher can't go to school).
-    + Student groups(with number of students).
-    + A subject(this subject requires the type of the room(has computer or not)).
-    + Busy time of the class.
-- A list of rooms:
-    + 2 types of room: has computer and not.
-    + capacity of the room.
-    + busy time of the room that a lecture can't happen.
-2. Ouput: schedules that:
-- All the classes is scheduled.
-- Multi-period class must happen continuously(ex: Math class has 3 period so it must happen on 2-4, of 8-10,...).
-- A schedule of a class must end before the end of the day.
-- One room at one time can only hold one class.
-- A student group at one time can only study in one class.
-- A teacher at one time can only teach one class.
-- The entity(teacher, class, room) can't be used in the busy time.
-- A class's requiring type should be the same as the room's type.
-- A class's student count should smaller or equal to the room's capacity.
-- Minium the days count that a teacher go to school.
-- Minium free time of a teacher in a day.
+- List of Classes, each Class includes:
+    + A Teacher(contains a schedule where the Teacher cannot come to school).
+    + Student Group(contains the number of Students).
+    + Subject (this Subject requires Room type (with or without computers)).
+    + Schedules where the Class should not take place.
+- List of Rooms:
+    + There are 2 types of Rooms: with computers and without.
+    + Room capacity.
+    + Schedules where the Room couldn't be used.
+2. Ouput: schedule:
+- All Classes are scheduled.
+- Classes with many periods must take place continuously (for example: Math class has 3 periods so it must take place on 2-4, 6-8,...).
+- Classes must end before the end of the day.
+- One Room at one time can only hold one Class.
+- A Group Student can only study in one Class at a time.
+- A Teacher can only teach one Class at a time.
+- Entities(Teacher, Class, Room) cannot be used during busy periods.
+- The Class request type must be the same as the Room type.
+- The number of Students in the Class must be less than or equal to the capacity of the Room.
+- Minimize the number of days that Teachers come to school.
+- Minimize Teacher free time during the day(between each Class).
 ### Main algorithm
 1. Create initial population(schedules).
 2. Fitness function calculation.
