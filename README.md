@@ -3,6 +3,7 @@
 - Java.
 - GUI with Swing library.
 - MySQL(jdbc).
+- MVC model.
 ## Algorithm design
 ### Problem
 1. Input
